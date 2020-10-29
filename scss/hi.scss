@@ -1,0 +1,25 @@
+// @use './colors';
+@import 'colors';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin flexprops($justify, $align) {
+  align-items: $align;
+  background-color: $main-color;
+  color: white;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: $justify;
+}
+
+header {
+  @include flexprops(center, center);
+  transform: scale(1.2);
+}
