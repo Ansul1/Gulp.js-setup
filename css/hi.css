@@ -10,7 +10,7 @@ header {
      -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #3ee2b1;
+  background-color: #292929;
   color: white;
   display: -webkit-box;
   display: -moz-box;
@@ -28,7 +28,4 @@ header {
   -webkit-box-pack: center;
      -moz-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transform: scale(1.2);
-     -moz-transform: scale(1.2);
-          transform: scale(1.2); }
+          justify-content: center; }
