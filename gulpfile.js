@@ -24,6 +24,7 @@ function watch() {
   browserSync.init({
     server: {
       baseDir: './',
+      index: 'main.html',
     },
   });
   gulp.watch('./scss/**/*.scss', style);
@@ -33,3 +34,7 @@ function watch() {
 
 exports.style = style;
 exports.watch = watch;
+
+//RUN commands:
+//gulp style (sync scss and create css file)
+// gulp watch (watch files and reload)
