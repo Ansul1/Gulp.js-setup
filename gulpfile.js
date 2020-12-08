@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-dart-sass');
 const prefix = require('gulp-autoprefixer');
 const livereload = require('gulp-livereload');
 const browserSync = require('browser-sync').create();
@@ -35,6 +35,5 @@ function watch() {
 exports.style = style;
 exports.watch = watch;
 
-//commands:
 //gulp style (sync scss and create css file)
 // gulp watch (watch files and reload on save)
