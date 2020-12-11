@@ -35,5 +35,3 @@ function watch() {
 exports.style = style;
 exports.watch = watch;
 
-//gulp style (sync scss and create css file)
-// gulp watch (watch files and reload on save)
